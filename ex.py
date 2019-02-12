@@ -3,7 +3,7 @@ import string
 d={}
 print ("retrieving data, please wait")
 page = requests.get("https://fritzaquatics.com/products/fritz-rpm-reef-pro-mix")
-
+#ian's a banana
 from bs4 import BeautifulSoup
 soup=BeautifulSoup (page.content,"html.parser")
 soup.find_all("p")
